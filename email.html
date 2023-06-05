@@ -17,6 +17,9 @@
       [style*='Open Sans'] {
         font-family: 'Open Sans', arial, sans-serif !important;
       }
+      [style*='Open Sans'] {
+        font-family: 'Geneva', 'Verdana', 'Tahoma' sans-serif !important;
+      }
 
       img {
         outline: none;
@@ -38,6 +41,11 @@
         mso-table-lspace: 0pt;
         mso-table-rspace: 0pt;
       }
+      @media (max-width: 620px) {
+        .table__600 {
+          width: 280px !important;
+        }
+      }
     </style>
   </head>
 
@@ -53,13 +61,67 @@
         display: none;
       "
     >
-      Тестовое письмо
+      Тестовая практика письма.
     </div>
-    <table
-      cellpadding="0"
-      cellspacing="0"
-      width="100%"
-      bgcolor="#ededed"
-    ></table>
+    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
+      <tr>
+        <td>
+          <table
+            class="table__600"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            bgcolor="#1B54DD"
+            align="center"
+          >
+            <tr>
+              <td align="center">
+                <table class="table__480" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      align="center"
+                      style="padding-top: 32px; padding-bottom: 32px"
+                    >
+                      <img
+                        src="http://work.maxgraph.ru/mail/logo.png"
+                        alt="Logo"
+                        width="100"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <h1
+                        class="title__h1"
+                        style="
+                          font-family: Geneva, Verdana, Tahoma, sans-serif;
+                          font-size: 32px;
+                          line-height: 32px;
+                          color: #ffffff;
+                          margin-top: 0;
+                          margin-bottom: 32px;
+                        "
+                      >
+                        I am Alex Golovanov
+                      </h1>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <img
+                        src="http://work.maxgraph.ru/mail/img.jpg"
+                        alt="Image"
+                        width="480"
+                        height="270"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
