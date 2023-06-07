@@ -1,4 +1,4 @@
-# Email Practice 
+# Email Practice
 
 ### Use Skills
 
@@ -7,7 +7,7 @@
 
 ---
 
-![image](readme/gif.webp)
+![image](readme/underconstruction.gif)
 
 ## Info
 
@@ -26,4 +26,3 @@
 - 📜 My Website: [alexgolovanov.ru](http://alexgolovanov.ru)
 
 <sub> Made with </sub>💙
-
